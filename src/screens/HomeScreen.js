@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Header from './Header';
-import Content from './Content';
+import Header from '../components/Header';
+import Content from '../components/Content';
 
 const HomeScreen = ({ navigation }) => {
   const [displayValue, setDisplayValue] = useState('0');
